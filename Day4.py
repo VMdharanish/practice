@@ -3,4 +3,5 @@ def reverse(arr):
     while left<right:
         arr[left],arr[right]=arr[right],arr[left]
     return arr
-    
+
+
