@@ -1,0 +1,11 @@
+#sum of digits
+class Solution:
+    def sumof(self,n):
+        tot = 0
+        while n>0:
+            tot += n%10
+            n //= 10
+        return tot
+obj = Solution()
+a = obj.sumof(123)
+print(a)
