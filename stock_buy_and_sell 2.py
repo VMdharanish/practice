@@ -18,3 +18,20 @@ class Solution:
             small = min(small,prices[i])
             result = max(result,prices[i] - small)
         return result
+
+""" Same program in Java"""
+"""
+
+class stock{
+    public static void main(String[] args) {
+        int[] price =  {7, 10, 1, 3, 6, 9, 2};
+        int min = price[0];
+        int result = 0;
+        for (int i =0 ; i<price.length ; i++){
+            min = Math.min(min, price[i]);
+            result = Math.max(result, price[i] - min);
+        }
+        System.out.println("Result = "+result);
+    }
+}
+"""
