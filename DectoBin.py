@@ -1,3 +1,5 @@
+"""Decimal to Binary Converte"""
+
 
 class Solution:
     def decToBinary(self, n):
