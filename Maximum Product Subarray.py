@@ -21,7 +21,7 @@ class Solution:
 		# code here
 		n = len(arr)
 		L2R = R2L = 1
-		result = 0
+		result = arr[0]
 		for i in range(n):
 		    if L2R == 0:
 		        L2R =1
