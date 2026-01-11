@@ -17,23 +17,23 @@ Explanation: It is possible to convert -123 into an integer so we returned in th
 class Solution:
     def myAtoi(self, s):
         # Code here
-        idx = 0
+        ind = 0
         result = 0
         n = len(s)
         sign = 1
-        while idx < n and s[idx] == ' ':
-            idx += 1
-        if idx <n and (s[idx] =='+' or s[idx] =='-' ):
-            if s[idx] == '-':
+        while ind < n and s[ind] == ' ':
+            ind += 1
+        if ind <n and (s[ind] =='+' or s[ind] =='-' ):
+            if s[ind] == '-':
                 sign = -1
-            idx +=1
-        while idx < n and '0'<= s[idx] <= '9':
+            ind +=1
+        while ind < n and '0'<= s[ind] <= '9':
             
-            digit = ord(s[idx]) - ord('0')
+            digit = ord(s[ind]) - ord('0')
             
             result = result * 10 + digit
             
             if result > 2**31-1:
                 return (2**31 - 1) if sign==1  else -2**31
-            idx += 1
+            ind += 1
         return result * sign
