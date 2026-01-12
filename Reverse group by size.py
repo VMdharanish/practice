@@ -24,14 +24,14 @@ def reverseInGroups(arr, k):
     n = len(arr)  
     
     while i < n:
-        left = i 
+        l = i 
 
-        right = min(i + k - 1, n - 1) 
+        r = min(i + k - 1, n - 1) 
       
-        while left < right:
-            arr[left], arr[right] = arr[right], arr[left]
-            left += 1
-            right -= 1
+        while l < r:
+            arr[l], arr[r] = arr[r], arr[l]
+            l += 1
+            r -= 1
         
         i += k
 
