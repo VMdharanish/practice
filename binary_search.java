@@ -31,6 +31,7 @@ class binary_search{
             System.out.println("Element found at the index of :" + result);
         }else{
             System.out.println("Element not found");
-        }scan.close();5
+        }scan.close();
     }
+
 }
