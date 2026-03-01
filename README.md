@@ -1,0 +1,1 @@
+In this repositories I apploaded all my daily program practices with the leetcode and Geeksforgeeks(GFG) for programs and to run I use the same platform,the problem statement is break down with the help of the ChatGpt
