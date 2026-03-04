@@ -2,7 +2,7 @@
 1582. Special Positions in a Binary Matrix
 Solved
 Easy
-Topics
+Topics 
 premium lock icon
 Companies
 Hint
