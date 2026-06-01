@@ -1,5 +1,4 @@
 public class Main {
-
     public static double clockAngle(String s) {
         String[] parts = s.split(":");
 
